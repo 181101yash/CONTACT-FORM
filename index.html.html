@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body{font-family:Arial,sans-serif;background:#f5f7fb;margin:0;padding:40px}
+    .card{max-width:520px;margin:40px auto;background:#fff;padding:32px;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+    h1{margin-top:0;color:#222}.field{margin:18px 0}
+    label{display:block;font-weight:600;margin-bottom:7px}
+    input{width:100%;box-sizing:border-box;padding:12px;border:1px solid #ccd3df;border-radius:8px;font-size:16px}
+    button{width:100%;padding:13px;border:0;border-radius:8px;background:#222;color:#fff;font-size:16px;cursor:pointer}
+    button:hover{opacity:.9}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Get in Touch</h1>
+    <p>We'd love to hear from you.</p>
+
+    <form action="https://formsubmit.co/181101JAIMINI@GMAIL.COM" method="POST">
+      <input type="hidden" name="_subject" value="New Contact Form Submission">
+      <input type="hidden" name="_autoresponse" value="Hi {name},
+
+Thank you for reaching out to us. We have received your inquiry and appreciate you getting in touch. Our team will review your request and get back to you as soon as possible.
+
+Best regards,
+Consulting Team">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
